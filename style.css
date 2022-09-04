@@ -1,45 +1,62 @@
+@media screen and (min-width: 480px) {
+  }
+
 .fa {
     padding: 7px;
-    padding-top: 20x;
+    padding-top: 5x;
     font-size: 30px;
     width: 25px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%
+   
+}
+* {
+    margin: 0px;
+    padding: auto;
 }
 
+#header {
+    display: flex;
+    flex-wrap: column;
+}
 #HeaderBG {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     color: antiquewhite;
-    align-items: center;
     text-align: center;
     height: 200px;
+    padding: 20px ;
     background-color: rgb(22, 22, 22);
     box-shadow: 0px 2px 5px 2px #888888;
 }
-
 #HeaderBG2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
     text-align: center;
     border: 1px skyblue;
-    padding-inline: 100px;
+    padding-inline: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 10px 2px #888888;
-    margin: 15px 50px 25px 50px;
-    padding-top: 120px;
-    padding-bottom: 50px;
+    margin: 90px 30px 30px 30px;
+    padding: 20px;
+}
 
-
+#buttons {
+    flex-flow: row;
 }
 
 img {
+    margin: 20px 20px 20px 20px;
     border-radius: 50px 10px 50px 20px;
     box-shadow: 1px 1px 6px 3px #888888;
     size-adjust: 100px;
     border: px bisque;
-    width: 200px;
+    width: 190px;
     height: auto;
-
-
-
+    padding: 5PX;
 }
 
 .MainTitle {
@@ -71,41 +88,83 @@ img {
     cursor: pointer;
     font-size: 13px;
     border-radius: 10px;
-
 }
 
 #Experience1 {
+    
     align-self: left;
     text-align: left;
     border: 1px skyblue;
-    padding-inline: 50px;
-
     background-color: rgb(255, 252, 252);
     margin: 5px 5px 5px 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
+    padding: 10px 10px 10px 10px;
     box-shadow: 1px 2px 10px 2px #888888;
 }
-
-.column {
-    float: left;
-    width: 520px;
-    padding-bottom: auto;
-    padding-right: 0px;
-    margin: 10px 50px 10px 78px;
+#ProfessionalExperience {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row1, .row2  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column1,
+.column2,
+.column3,
+.column4 {
+    padding: 10px 0px 10px 0px;
+    margin: 10px 40px 10px 40px;
+    width: 600px;
     align-items: center;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 10px 2px #888888;
 }
+ #Skills {
+    display: flex;
+    flex-wrap: wrap;
 
+ }
+ .skills1,
+ .skills2 {
+    padding: 20px 20px 20px 20px;
+    margin: 10px 40px 10px 40px;
+    width: 420px;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px #888888;
+}
+#QualificationMainTitle {
+    color: whitesmoke;
+    background-color: rgb(21, 21, 21);
+    text-align: left;
+}
+#EducationalQualification {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 40px 10px 40px;
+    
+}
+.table1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
 .row:after {
+    display: flex;
+    justify-content: center;
     content: "";
-    display: table;
     float: center;
     clear: both;
     align-content: center;
-
 }
 
 .btn:hover {
@@ -114,36 +173,18 @@ img {
 
 .Column1 {
     margin: 5px 10px 5px 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px;
+    
 }
 
 .Title {
     background-color: rgb(22, 22, 22);
     color: antiquewhite;
-    padding: 5px 0px 2px 0px;
+    padding: 10px 0px 10px 0px;
     font-size: 18px;
     font-weight: lighter;
     text-align: center;
 }
-
-.skills {
-    float: left;
-    padding: 20px 20px 20px 20px;
-    margin: 20px 20px 5px 75px;
-    height: auto;
-    width: 500px;
-    background-color: rgb(22, 22, 22);
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px 1px #888888;
-}
-
-#QualificationMainTitle {
-    color: whitesmoke;
-    background-color: rgb(21, 21, 21);
-    text-align: left;
-}
-
 #Hcourses {
     padding: 10px 10px;
     align-items: right;
@@ -188,12 +229,11 @@ img {
 table,
 th,
 td {
+    margin: 10px 40px 10px 40px;
     align-items: center;
     align-self: center;
     align-content: center;
-    padding: 0px 0px 0px 0px;
     width: fit-content;
-    margin: auto;
     margin-bottom: 10px;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 10px 2px #888888;
@@ -202,9 +242,9 @@ td {
 
 th,
 td {
+    padding: 10px 10px 10px 10px;
     width: fit-content;
-    padding: 20px;
-}
+    }
 
 .my-interest {
     padding: 10px 5px 10px 5px;
